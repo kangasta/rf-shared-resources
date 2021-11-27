@@ -1,0 +1,9 @@
+.
+
+# Acceptance tests
+coverage
+robotframework
+
+# Static analysis
+pycodestyle
+pylint
