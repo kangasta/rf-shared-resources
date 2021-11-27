@@ -3,6 +3,7 @@
 # Acceptance tests
 coverage
 robotframework
+examples/embedded_resources/
 
 # Static analysis
 pycodestyle
