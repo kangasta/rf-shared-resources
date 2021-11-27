@@ -1,5 +1,8 @@
 # rf-shared-resources
 
+[![CI](https://github.com/kangasta/rf-shared-resources/actions/workflows/ci.yml/badge.svg)](https://github.com/kangasta/rf-shared-resources/actions/workflows/ci.yml)
+[![Release](https://github.com/kangasta/rf-shared-resources/actions/workflows/release.yml/badge.svg)](https://github.com/kangasta/rf-shared-resources/actions/workflows/release.yml)
+
 Library for importing Robot Framework resource files from python libraries. See [examples/](./examples) directory for an example of Python library with embedded Robot Framework resources and usage of this library.
 
 ## Usage
