@@ -2,7 +2,7 @@
 Library  SharedResources
 
 *** Test Cases ***
-Verify keywords were loaded when using keyword provided by the library
+Verify keywords were loaded when using keyword provided by the library when loading library again
     [Tags]  \#3
     Run keyword and expect error  No keyword with name*
     ...  Keyword from resource file embedded in library
