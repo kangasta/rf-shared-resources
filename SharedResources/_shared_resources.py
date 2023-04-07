@@ -20,7 +20,7 @@ def load_resource_file(
     for resource in resources_:
         with resources.path(package, resource) as path:
             debug(f'Importing resource file from {path}')
-            built_in.import_resource(str(path))
+            built_in.import_resource(str(path).replace("\\", "/"))
 
 
 def _parse_args_and_load_resource_file(args):
