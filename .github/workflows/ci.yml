@@ -33,6 +33,11 @@ jobs:
         pylint -E --enable=invalid-name,unused-import,useless-object-inheritance SharedResources
         coverage run --branch --source SharedResources/ -m robot -d out/ acceptance_tests/
         coverage report -m
+    - name: Test on windows command prompt
+      shell: cmd
+      run: |
+        python -m robot -d out/ acceptance_tests/
+      if: matrix.os == 'windows-latest'
     # - name: Push coverage
     #   uses: paambaati/codeclimate-action@v2.7.5
     #   with:
